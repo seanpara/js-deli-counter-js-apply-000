@@ -6,9 +6,7 @@ function takeANumber(line) {
   
   line.push(ticketNumber)
   
-  let ticketNumber = ticketNumber++
-  
-  
+  ticketNumber++
   
 }
 
