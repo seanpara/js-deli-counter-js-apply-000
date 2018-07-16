@@ -1,13 +1,12 @@
 var katzDeliLine = []
 
-function takeANumber(line, name) { 
-  return `Welcome, ${name}. You are number ${line.push(name)} in line.`
-  
-  let ticketNumber = 1,  
+let ticketNumber = 1
+
+function takeANumber(line) { 
   
   line.push(ticketNumber)
   
-  ticketNumber++, 
+  let ticketNumber = ticketNumber++
   
   
   
