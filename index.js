@@ -2,6 +2,11 @@ var katzDeliLine = []
 
 function takeANumber(line, name) { 
   return `Welcome, ${name}. You are number ${line.push(name)} in line.`
+  
+  let ticketNumber = 0, ticketNumber++
+  
+  line.push(ticketNumber)
+  
 }
 
 function nowServing(line) {
